@@ -1,0 +1,22 @@
+{
+  "name": "webstatuslogrestapi",
+  "version": "1.0.0",
+  "description": "It gets and stores the web status logs.",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "cross-env NODE_ENV=prod nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "drbogar",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
